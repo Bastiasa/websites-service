@@ -1,0 +1,22 @@
+main#content {
+    width: min(500px, calc(100% - 20px));
+    margin: 10px auto;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    margin-bottom: 10vh;
+}
+
+#last_edited {
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}

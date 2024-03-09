@@ -1,0 +1,117 @@
+h3 {
+    text-align: center;
+}
+
+body {
+    margin-top: 10px;
+    margin-bottom: 10vh;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content {
+    width: min(500px, calc(100% - 20px));
+    margin: 0 auto;
+}
+
+#plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plan {
+    width: min(calc(50% - 20px), 230px);
+    height: fit-content;
+
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 18px 10px;
+
+    transition: background-color 200ms ease;
+    transition-property: background-color, transform;
+
+    transform: scale(1);
+
+    background-color: white;
+}
+
+.plan:hover {
+    background-color: rgb(245, 245, 245);
+    transform: scale(1.05);
+    z-index: 999;
+}
+
+.plan span {
+    display: block;
+    text-align: center;
+}
+
+.plan > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.plan_domain {
+    background-color: blueviolet;
+    
+    width: fit-content;
+    min-width: 70px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    color: white;
+
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.initial_price_text {
+    margin: 0 !important;
+}
+
+.price_text {
+    margin: 0 !important;
+}
+
+#content > * {
+    margin: 0;
+    margin-top: 10px;
+}
+
+#content > *:first-child {
+    margin-top: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+footer {
+    font-size: 13px;
+    color: gray;
+    margin-top: 30px !important;
+}
+
+.a-button {
+    padding: 10px 15px;
+    background-color: blueviolet;
+
+    width: fit-content;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 6px;
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
